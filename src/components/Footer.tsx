@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Mail, Phone } from 'lucide-react';
+import { Facebook, Instagram, Mail, Phone, MapPinIcon } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -58,7 +58,7 @@ const Footer = () => {
                 <span>info@blackstarservices.com</span>
               </li>
               <li className="flex gap-2">
-                <MapPin size={18} className="text-gray-400" />
+                <MapPinIcon size={18} className="text-gray-400" />
                 <span>Paragonah, Utah 84760</span>
               </li>
             </ul>

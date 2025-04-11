@@ -1,5 +1,5 @@
 
-import { Roof, Home, Hammer, MapPin } from 'lucide-react';
+import { HomeIcon, Building, Hammer, Construction } from 'lucide-react';
 import CTAButton from './CTAButton';
 
 interface ServiceCardProps {
@@ -31,17 +31,17 @@ const ServicesSection = () => {
     {
       title: 'Roofing',
       description: 'Expert installation and repair of all types of roofing materials for residential properties.',
-      icon: <Roof size={24} />
+      icon: <HomeIcon size={24} />
     },
     {
       title: 'Remodeling',
       description: 'Transform your living spaces with our comprehensive remodeling services.',
-      icon: <Home size={24} />
+      icon: <Building size={24} />
     },
     {
       title: 'Drywall',
       description: 'Professional drywall installation, repair, and finishing for any room in your home.',
-      icon: <MapPin size={24} />
+      icon: <Construction size={24} />
     },
     {
       title: 'Deck Building',
