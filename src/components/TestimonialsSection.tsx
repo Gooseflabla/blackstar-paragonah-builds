@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
       name: 'Jennifer Miller',
       location: 'Parowan, UT',
       rating: 4,
-      text: 'We hired Blackstar for drywall work after water damage in our living room. They matched the existing texture perfectly and you can't even tell there was ever a problem. Great service!',
+      text: "We hired Blackstar for drywall work after water damage in our living room. They matched the existing texture perfectly and you can't even tell there was ever a problem. Great service!",
       project: 'Drywall Repair'
     }
   ];
